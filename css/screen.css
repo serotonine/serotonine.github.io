@@ -1,0 +1,322 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+
+legend {
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/*   ========================================================================== */
+html{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+*, *:after,*:before {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  color:rgb(83,84,84);
+  background-color: #F3F3F3;
+  font-size: 100%;
+  font-weight: 400;
+}
+header{
+  margin:0;
+  min-height: 200px;
+  text-align: center;
+  color: #FFF;
+}
+header{padding: 20px;}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Oswald', sans-serif;
+/*font-size: 100%;*/
+font-weight: 400;
+}
+h2{
+  margin-bottom:1rem;
+   margin-top: 1.5rem;
+ }
+ article{margin-bottom:1.5rem;}
+
+ h2>a{ color:#8E76F7; }
+p{ line-height: 1.5em; }
+a{ text-decoration: none; }
+a.arrow{}
+header h1{
+  font-size: 2.5em;
+  margin-bottom: 5px; }
+.baseline{
+font-family: 'Open Sans';
+text-transform: uppercase;
+letter-spacing: 0.15em;
+  font-weight: 300;
+  margin-top: 0;
+
+}
+
+section.main-content {
+  padding:30px 0 0 30px;
+
+ }
+
+ hr{
+
+   border: 0;
+height: 1px;
+background-image: linear-gradient(to right, rgba(83,84,84,0.75), rgba(0, 0, 0, 0));
+ }
+
+/*.main-content article{
+  display: inline-block;
+  vertical-align: top;
+  width:33%;
+ }*/
+/*   ========================================================================== */
+
+.twinkling{
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index:1;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+
+header{
+
+  background: #6faff9;
+  background: -moz-linear-gradient(top, #6faff9 0%, #d14cc9 63%, #6faff9 120%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #6faff9), color-stop(63%, #d14cc9), color-stop(120%, #6faff9));
+  background: -webkit-linear-gradient(top, #6faff9 0%, #d14cc9 63%, #6faff9 120%);
+  background: -o-linear-gradient(top, #6faff9 0%, #d14cc9 63%, #6faff9 120%);
+  background: -ms-linear-gradient(top, #6faff9 0%, #d14cc9 63%, #6faff9 120%);
+  background: linear-gradient(to bottom, #6faff9 0%, #d14cc9 63%, #6faff9 120%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d94f7', endColorstr='#fb0383', GradientType=0 );
+
+}
